@@ -8,10 +8,12 @@ add_executable(main ${SRC})
 target_include_directories(main PRIVATE "include")
 
 find_package(SDL2 CONFIG REQUIRED)
+find_package(SDL2_ttf CONFIG REQUIRED)
 target_link_libraries(main
     PRIVATE
     $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>
     $<IF:$<TARGET_EXISTS:SDL2::SDL2>,SDL2::SDL2,SDL2::SDL2-static>
+    SDL2_ttf::SDL2_ttf
 )
 
 find_package(SDL2_image CONFIG REQUIRED)
