@@ -1,7 +1,9 @@
-Package: vcpkg-cmake-config
-Version: 2022-02-06
+Package: spdlog
+Version: 1.11.0
 Port-Version: 1
+Depends: fmt, vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: 60f7ef48c69413ef3092b5de40ac5522fac84d25c996a528f1bc4a56d6e38c44
-Status: install ok installed
+Abi: 2fa99b3cdd057d3ae7fe1323d1b39c4bc2ef1c3233af0b79fa7ca62da05c222b
+Description: Very fast, header only, C++ logging library
+Status: purge ok not-installed

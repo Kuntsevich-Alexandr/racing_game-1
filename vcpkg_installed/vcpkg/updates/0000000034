@@ -1,9 +1,9 @@
-Package: spdlog
-Version: 1.11.0
-Port-Version: 1
-Depends: fmt, vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
-Architecture: x86-windows
+Package: sdl2
+Version: 2.26.5
+Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
+Architecture: x64-mingw-static
 Multi-Arch: same
-Abi: 4a099802b2a162e0340966ce50299bedb3ac3c27dee87894423491b66265e639
-Description: Very fast, header only, C++ logging library
-Status: install ok half-installed
+Abi: 4ac55eafc7edab2a68708965f947299012cf8483df02ac8d96591a7e763ac480
+Description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+Default-Features: base
+Status: install ok installed

@@ -13,7 +13,7 @@ target_link_libraries(main
     PRIVATE
     $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>
     $<IF:$<TARGET_EXISTS:SDL2::SDL2>,SDL2::SDL2,SDL2::SDL2-static>
-    SDL2_ttf::SDL2_ttf
+    SDL2_ttf::SDL2_ttf-static
 )
 
 find_package(SDL2_image CONFIG REQUIRED)

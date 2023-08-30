@@ -1,10 +1,10 @@
-Package: freetype
-Version: 2.12.1
-Port-Version: 3
-Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
-Architecture: x86-windows
+Package: bzip2
+Version: 1.0.8
+Port-Version: 4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
 Multi-Arch: same
-Abi: feaf4e3dfbe7a07fbbb2dbfa41d894cfc4d953b522738e9329cd2d7bfe21b5a1
-Description: A library to render fonts.
-Default-Features: brotli, bzip2, png, zlib
-Status: install ok half-installed
+Abi: 93d8c59e1ab4a953d37efa761a5b60100bad1427568608ffa13cd470b117bbbb
+Description: bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
+Default-Features: tool
+Status: purge ok not-installed

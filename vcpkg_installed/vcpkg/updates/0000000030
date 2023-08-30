@@ -1,8 +1,9 @@
-Package: sdl2-ttf
-Version: 2.20.2
-Depends: freetype, sdl2, vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
-Architecture: x86-windows
+Package: sdl2
+Version: 2.26.5
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
 Multi-Arch: same
-Abi: 96f868224c693742021ef638d2af172f9b2f55fea984b7d6b877a8a5e5b3ddde
-Description: A library for rendering TrueType fonts with SDL
-Status: install ok half-installed
+Abi: 71ba5c3a5262ec5343bd6ef885446d0c0aa9a03665ff47d1ee96c273e0e5355d
+Description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+Default-Features: base
+Status: purge ok not-installed

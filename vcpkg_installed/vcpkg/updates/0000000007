@@ -1,6 +1,7 @@
-Package: sdl2
-Feature: base
-Architecture: x86-windows
+Package: freetype
+Feature: zlib
+Depends: zlib
+Architecture: x64-windows
 Multi-Arch: same
-Description: Base functionality for SDL
-Status: install ok installed
+Description: Use zlib instead of internal library for DEFLATE
+Status: purge ok half-installed

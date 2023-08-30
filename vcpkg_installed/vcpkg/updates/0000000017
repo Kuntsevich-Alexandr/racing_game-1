@@ -1,6 +1,9 @@
-Package: bzip2
-Feature: tool
-Architecture: x86-windows
+Package: brotli
+Version: 1.0.9
+Port-Version: 5
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
 Multi-Arch: same
-Description: Builds bzip2 executable
-Status: install ok installed
+Abi: 12fece2248f163210a290311eb26a283dd116920633ff37290b98d8260571c64
+Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+Status: purge ok not-installed

@@ -1,6 +1,8 @@
-Package: sdl2
-Feature: base
-Architecture: x86-windows
+Package: sdl2-ttf
+Version: 2.20.2
+Depends: freetype, sdl2, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
 Multi-Arch: same
-Description: Base functionality for SDL
-Status: install ok half-installed
+Abi: e50e816d37f391e63a0f7ccc08b2d5296471f71bc13323332529ed8880f7008b
+Description: A library for rendering TrueType fonts with SDL
+Status: purge ok not-installed

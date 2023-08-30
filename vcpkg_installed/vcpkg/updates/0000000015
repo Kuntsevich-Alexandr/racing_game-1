@@ -1,6 +1,7 @@
-Package: bzip2
-Feature: tool
-Architecture: x86-windows
+Package: freetype
+Feature: brotli
+Depends: brotli
+Architecture: x64-windows
 Multi-Arch: same
-Description: Builds bzip2 executable
-Status: install ok half-installed
+Description: Support decompression of WOFF2 streams
+Status: purge ok not-installed

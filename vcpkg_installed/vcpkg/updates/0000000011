@@ -1,9 +1,10 @@
-Package: libpng
-Version: 1.6.39
-Port-Version: 1
-Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows, zlib
-Architecture: x86-windows
+Package: freetype
+Version: 2.12.1
+Port-Version: 3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
 Multi-Arch: same
-Abi: 783fdd94cf6002b79fb31fa7c52037f565a253dac4b79a3cbd0ec91156475964
-Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
-Status: install ok installed
+Abi: 2f046c560bdc1f158646fe3444ca3ff8404cbc20883ce4044b7d58f99dd33a74
+Description: A library to render fonts.
+Default-Features: brotli, bzip2, png, zlib
+Status: purge ok not-installed

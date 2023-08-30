@@ -1,6 +1,8 @@
-Package: vcpkg-cmake
-Version: 2022-12-22
+Package: fmt
+Version: 10.0.0
+Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-windows
 Multi-Arch: same
-Abi: bce34f8ec2c47a3e58030ffdda186b8fafda730873b9d121ec1577b05b4a2cf5
-Status: install ok installed
+Abi: 52a6e459e76008a4824153f0ac2f55ed9bf305be9f436284776a31e88a906a3b
+Description: Formatting library for C++. It can be used as a safe alternative to printf or as a fast alternative to IOStreams.
+Status: purge ok not-installed

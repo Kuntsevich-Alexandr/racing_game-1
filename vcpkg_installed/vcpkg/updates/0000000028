@@ -1,7 +1,9 @@
-Package: freetype
-Feature: png
-Depends: libpng
-Architecture: x86-windows
+Package: sdl2
+Version: 2.26.5
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
 Multi-Arch: same
-Description: Support PNG compressed OpenType embedded bitmaps.
-Status: install ok installed
+Abi: 71ba5c3a5262ec5343bd6ef885446d0c0aa9a03665ff47d1ee96c273e0e5355d
+Description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+Default-Features: base
+Status: purge ok half-installed

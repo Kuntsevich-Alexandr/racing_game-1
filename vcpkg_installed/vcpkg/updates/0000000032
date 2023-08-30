@@ -1,8 +1,9 @@
-Package: fmt
-Version: 10.0.0
+Package: sdl2
+Version: 2.26.5
 Depends: vcpkg-cmake:x64-windows, vcpkg-cmake-config:x64-windows
-Architecture: x86-windows
+Architecture: x64-mingw-static
 Multi-Arch: same
-Abi: f85fef8f03ce246fc2d02d4d18c635059c60141be0a81a516b568838126c367e
-Description: Formatting library for C++. It can be used as a safe alternative to printf or as a fast alternative to IOStreams.
+Abi: 4ac55eafc7edab2a68708965f947299012cf8483df02ac8d96591a7e763ac480
+Description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+Default-Features: base
 Status: install ok half-installed

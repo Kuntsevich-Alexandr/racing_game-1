@@ -1,7 +1,8 @@
-Package: freetype
-Feature: brotli
-Depends: brotli
-Architecture: x86-windows
+Package: zlib
+Version: 1.2.13
+Depends: vcpkg-cmake
+Architecture: x64-windows
 Multi-Arch: same
-Description: Support decompression of WOFF2 streams
-Status: install ok installed
+Abi: 016fb91438ed3f57ded94fb233dfae5aba34f96f7167e29aa56533138ece829e
+Description: A compression library
+Status: purge ok half-installed

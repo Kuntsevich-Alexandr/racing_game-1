@@ -11,8 +11,9 @@ public:
     Menu(SDL_Renderer* renderer);
     ~Menu();
     void handleInput(SDL_Event event);
-    void update(); // maybe highlight the chosen key but thats too much work
-    void render(); // render options
+    void render(); // method to conviniently render all options
+    void renderMenuOption(const char* text, int x, int y, bool isSelected); /*render a specific option based on
+    wether it is selected*/
     bool shouldExit() const; // getter for m_exit
 
 private:
@@ -20,5 +21,5 @@ private:
     MenuOption m_currentMenuOption; //currently selected menu option 
     bool m_exit;
 
-    void renderMenuOption(const char* text, int x, int y, bool isSelected);
+    //void renderMenuOption(const char* text, int x, int y, bool isSelected);
 };

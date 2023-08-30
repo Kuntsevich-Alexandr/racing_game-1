@@ -1,7 +1,8 @@
-Package: freetype
-Feature: bzip2
-Depends: bzip2
-Architecture: x86-windows
+Package: sdl2-image
+Version: 2.6.3
+Depends: libpng, sdl2, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
 Multi-Arch: same
-Description: Support bzip2 compressed fonts.
-Status: install ok half-installed
+Abi: 7c88047f5ad5a47f77d170ac2bd9d19794d2d3380009b419b6fcbb7d5d5837aa
+Description: SDL_image is an image file loading library. It loads images as SDL surfaces and textures, and supports the following formats: BMP, GIF, JPEG, LBM, PCX, PNG, PNM, TGA, TIFF, WEBP, XCF, XPM, XV
+Status: purge ok half-installed
